@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "package-restate-green": {
+      "source": "getcolors/restate",
+      "sourceType": "github",
+      "skillPath": "skills/package-restate-green/SKILL.md",
+      "computedHash": "a97dfa396f2eb43647fff197d3466324f70b56aed793ff63aaf0578ee9036a47"
+    }
+  }
+}
