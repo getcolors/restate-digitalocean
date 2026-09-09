@@ -1,6 +1,6 @@
 # Shared compute rollout
 
-Installed package: `getcolors/restate` at published revision `0e938694a5b73c27b7001c23754f40aa2db3b2e9`.
+Installed package: `getcolors/restate` at published revision `8422eb7e510877166e31b4a6d781350e9f6ba9b0`.
 The installed skill directories and root launchers were copied from a verified
 Skills CLI installation of that revision. The existing skills-lock.json entries were updated from that installation.
 
@@ -27,4 +27,4 @@ application health.
 
 Outstanding live-operation prerequisites:
 
-- Before any real operation, configure ssh-private-key-path for the existing external provider key. No identity path was guessed and no key mode was changed.
+- Before any real operation, verify working operator or SSH-agent access for the existing external provider key, or set ssh-private-key-path to its matching identity. No identity path was guessed and no key mode was changed.
